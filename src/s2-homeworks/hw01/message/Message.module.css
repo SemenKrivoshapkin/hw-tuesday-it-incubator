@@ -1,0 +1,77 @@
+.message {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    gap: 30px;
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    position: relative;
+    background: #0066CC;
+    box-shadow: 0px 1px 2px 0px #1D21261A;
+    border-radius:  15px 15px 0 15px;
+    padding: 10px;
+    height: 100%;
+}
+
+
+.text:after {
+    content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0;
+    right: -15px; 
+	bottom: 0px;
+    border-bottom: 15px solid #0066CC;
+	border-right: 15px solid  transparent;
+}
+
+.name {
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.messageText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 400px;
+    white-space: normal;
+}
+
+.time {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-right: 12px;
+    
+}
